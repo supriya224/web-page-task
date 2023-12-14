@@ -86,13 +86,16 @@ body {
 }
 
 /* collection */
+.collection-list{
+  display: block;
+}
 .btn {
   background-color: var(--blue) !important;
   color: #fff;
   border-color: var(--blue) !important;
 }
-.filter-button-group .btn:hover {
-  color: #fff !important;
+.filter-items{
+  display: block;
 }
 .collection-img span {
   top: 20px;

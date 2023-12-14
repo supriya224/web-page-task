@@ -109,14 +109,15 @@
             <div class="row g-0">
                 <!-- button all selers -->
                 <div class="filter-btns d-flex flex-wrap justify-content-center mt-5">
-                    <button type="button" class="filter-btn btn btn-active m-2 text-white" id="all">All</button>
-                    <button type="button" class="filter-btn btn m-2 text-white" id="womens">Women's</button>
-                    <button type="button" class="filter-btn btn m-2 text-white" id="mens">Men's</button>
-                    <button type="button" class="filter-btn btn m-2 text-white" id="kids">Kids</button>
+                    <button type="button" class="filter-btn btn btn-active m-2 text-white"onclick="filterObjects('all')">All</button>
+                    <button type="button" class="filter-btn btn m-2 text-white" id="womens" onclick="filterObjects('womens')">Women's</button>
+                    <button type="button" class="filter-btn btn m-2 text-white" id="mens" onclick="filterObjects('mens')">Men's</button>
+                    <button type="button" class="filter-btn btn m-2 text-white" id="kids" onclick="filterObjects('kids')">Kids</button>
                 </div>
                 <!-- all items which is show here -->
                 <div class="filter-items mt-4 row gx-0 gy-3">
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 mens">
                         <div class="collection-img position-relative">
                             <img src="https://5.imimg.com/data5/QP/AW/RO/SELLER-83548430/men-formal-grey-shirt.jpg"
                                 class="w-100">
@@ -136,7 +137,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 mens">
                         <div class="collection-img position-relative">
                             <img src="https://image.made-in-china.com/2f0j00KaRfgNCGREkQ/Fashion-New-Style-Boys-Long-Sleeve-Denim-Shirt-with-Personality-Embroidered-by-Fly-Jeans.webp"
                                 class="w-100">
@@ -155,7 +156,7 @@
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 kids">
                         <div class="collection-img position-relative">
                             <img src="https://4.imimg.com/data4/VN/JF/MY-34076214/boy-party-wear-dress.jpg"
                                 class="w-100">
@@ -174,9 +175,9 @@
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 kids">
                         <div class="collection-img position-relative">
-                            <img src="https://i5.walmartimages.com/seo/Phenas-Toddler-Boy-Clothes-Kids-2-Piece-Summer-Outfit-Polo-Dress-Shirt-Shorts-Set-1-7-Years_92f6fcb4-93a5-436c-9bee-4b3bb7197776.b45a94113a54c3fb002094e4bf8d3f4b.jpeg?odnHeight=432&odnWidth=320&odnBg=FFFFFF"
+                            <img src="https://cpimg.tistatic.com/07417343/b/4/Kids-Winter-Sweatshirt-Hoodie-Pajama-Winter-Clothing-Set.jpg"
                                 class="w-100">
                             <span
                                 class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
@@ -194,7 +195,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 kids">
                         <div class="collection-img position-relative">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrL2guGVTJQaf-1-4m_jqnlqLoc7kslhuf93XgWAY51D4gL6m9ujC7W-yB7ttdXD-yx4s&usqp=CAU"
                                 class="w-100">
@@ -213,7 +214,7 @@
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 womens">
                         <div class="collection-img position-relative">
                             <img src="https://i.pinimg.com/550x/be/e7/24/bee724601ec3656d4f7a08cb18de1deb.jpg"
                                 class="w-100">
@@ -228,11 +229,11 @@
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                             </div>
-                            <p class="text-capitalize my-1">kids cloth</p>
+                            <p class="text-capitalize my-1">girl top</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 mens">
                         <div class="collection-img position-relative">
                             <img src="https://mirzacdns3.s3.ap-south-1.amazonaws.com/cache/catalog/RDM0724/1-800x800.jpg"
                                 class="w-100">
@@ -252,7 +253,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 mens">
                         <div class="collection-img position-relative">
                             <img src="https://i.pinimg.com/564x/12/6d/ba/126dba5fe8f7114b31f54bdc762e0e73.jpg"
                                 class="w-100">
@@ -272,7 +273,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 womens">
                         <div class="collection-img position-relative">
                             <img src="https://image.made-in-china.com/202f0j00ilTzJyErCBgd/Denim-Girl-Blouses-Clothing-Autumn-Baby-Girls-Jeans-Shirts-New-Solid-Jean-Children-Kids-Long-Sleeve-Mandarin-Collar-Fashion-Full.jpg"
                                 class="w-100" alt="">
@@ -292,7 +293,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 mens">
                         <div class="collection-img position-relative">
                             <img src="https://st2.depositphotos.com/4192645/6758/i/450/depositphotos_67585467-stock-photo-t-shirt-front-view-on.jpg"
                                 class="w-100">
@@ -312,7 +313,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 womens">
                         <div class="collection-img position-relative">
                             <img src="https://images.meesho.com/images/products/241509240/hvqir_512.webp"
                                 class="w-100">
@@ -327,11 +328,11 @@
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                             </div>
-                            <p class="text-capitalize my-1">Men's T-shirt</p>
+                            <p class="text-capitalize my-1">women's T-shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 mens">
                         <div class="collection-img position-relative">
                             <img src="https://hips.hearstapps.com/hmg-prod/images/4x5-hdm-wrangler-025-1630086376.jpg?resize=980:*"
                                 class="w-100">
@@ -346,11 +347,11 @@
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                             </div>
-                            <p class="text-capitalize my-1">Men's T-shirt</p>
+                            <p class="text-capitalize my-1">Men's shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 womens">
                         <div class="collection-img position-relative">
                             <img src="https://jcwesternwear.com/cdn/shop/products/zyk1q0p6_300x300@2x.gif?v=1676396474"
                                 class="w-100">
@@ -365,11 +366,11 @@
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                             </div>
-                            <p class="text-capitalize my-1">Men's T-shirt</p>
+                            <p class="text-capitalize my-1">women T-shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class="collection-list col-md-6 col-lg-4 col-xl-3 p-2 mens">
                         <div class="collection-img position-relative">
                             <img src="https://i.pinimg.com/474x/15/72/a2/1572a2977e18e0d7d7113090e4836a55.jpg"
                                 class="w-100">
@@ -384,7 +385,7 @@
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                                 <span class="text-primary"><i class="fas fa-star"></i></span>
                             </div>
-                            <p class="text-capitalize my-1">Men's T-shirt</p>
+                            <p class="text-capitalize my-1">Men's jacket</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
