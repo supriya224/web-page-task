@@ -1,4 +1,4 @@
-filterObjects("all");
+// filterObjects("all");
 
 function filterObjects(c) {
   var x, i;
@@ -9,6 +9,9 @@ function filterObjects(c) {
     if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
   }
 }
+
+// console.log(filterObjects('all'))
+
 
 function addClass(element, name) {
   var i, arr1, arr2;
