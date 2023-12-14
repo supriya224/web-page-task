@@ -14,3 +14,5 @@ function showFilterContent(btn){
     }
   })
 }
+
+console.log(showFilterContent(btn))
